@@ -86,7 +86,7 @@ var VKI = function(customConfig, layout, deadKeys, keyInputCallback) {
   this.VKI_activeTab = 0;  // Tab moves to next: 1 = element, 2 = keyboard enabled element
   this.VKI_keyCenter = config.keyCenter || 3;
   this.VKI_forcePosition = config.forcePosition || false;
-  this.VKI_relative = config.relative === false ? false : true;
+  this.VKI_relative = config.relative === false ? false : false;
 
   this.VKI_isIE = /*@cc_on!@*/false;
   this.VKI_isIE6 = /*@if(@_jscript_version == 5.6)!@end@*/false;
